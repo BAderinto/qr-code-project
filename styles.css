@@ -1,0 +1,48 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  background-color: hsl(212, 45%, 89%);
+  margin: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main{
+  background-color: hsl(0, 0%, 100%);
+  font-family: 'Outfit', sans-serif;
+  border-radius: 15px;
+  width: 250px;
+  height: 500px;
+  margin: 10px;
+  padding: 0px 40px;
+  /* Center vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.qr-code img{
+  border-radius: 10px;
+  width: 300px;
+}
+
+.front-end-skills { 
+  font-size: 20px; 
+  text-align: center; 
+  font-weight: bolder;
+  margin: 10px;
+}
+.scan-qr-code { 
+  color: hsl(220, 15%, 55%); 
+  font-size: 15px;
+  text-align: center;
+}
+
+@media screen and (min-width:375px) and (max-width:1440px) {
+  /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
+}
